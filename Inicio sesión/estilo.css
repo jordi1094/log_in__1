@@ -1,0 +1,41 @@
+*{
+    font-family: Georgia, Times, serif;
+
+}
+body{
+    background: linear-gradient(90deg, rgb(180, 138, 234)40%, rgb(244, 192, 96) 90%);
+}
+
+.contenido{
+    background-color: rgb(255, 250, 248);
+    width: 280px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 4%;
+}
+.titulo {
+    position: relative;
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.formulario{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.button{
+    margin-top: 20px;
+    border: 1px solid rgb(243, 200, 119);
+    background-color:rgb(245, 238, 225) ;
+    width: 50px;
+}
+
+.input__1{
+    border: 1px solid rgb(243, 200, 119);
+    background-color:rgb(245, 238, 225) ;
+    width: 200px;
+}
