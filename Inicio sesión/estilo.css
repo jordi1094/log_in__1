@@ -9,7 +9,7 @@ body{
 .contenido{
     background-color: rgb(255, 250, 248);
     width: 280px;
-    height: 400px;
+    height: 350px;
     margin: 80px auto;
     border-radius: 4%;
 }
@@ -27,11 +27,11 @@ body{
     text-align: center;
 }
 .formulario__div{
-    height: 190px;
+    height: 110px;
 }
 
 .button{
-    margin-top: 20px;
+    margin-top: 15px;
     border: 1px solid rgb(243, 200, 119);
     background-color:rgb(245, 238, 225) ;
     width: 65px;
@@ -41,22 +41,32 @@ body{
 }
 
 .link_troll{
+    padding:20px;
     font-size: 12px;
 }
 .input__1{
+    margin-top: 20px;
     border: 1px solid rgb(243, 200, 119);
     background-color:rgb(245, 238, 225) ;
     width: 200px;
 }
 
+
+a{
+    font-size: 10px;
+}
+.user_remember{
+    margin-top: 10px;
+}
+
 .button:hover{
-    margin-top: 19px;
+    margin-top: 14px;
     height: 27px;
     width: 67px;    
 }
 
 .button:active{
-    margin-top: 23px;
+    margin-top: 17px;
     height: 20px;
     width: 60px;
     font-size: xx-small;
