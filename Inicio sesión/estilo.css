@@ -1,5 +1,5 @@
 *{
-    font-family: Georgia, Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 body{
@@ -26,16 +26,38 @@ body{
     display: block;
     text-align: center;
 }
+.formulario__div{
+    height: 190px;
+}
 
 .button{
     margin-top: 20px;
     border: 1px solid rgb(243, 200, 119);
     background-color:rgb(245, 238, 225) ;
-    width: 50px;
+    width: 65px;
+    height: 25px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.link_troll{
+    font-size: 12px;
+}
 .input__1{
     border: 1px solid rgb(243, 200, 119);
     background-color:rgb(245, 238, 225) ;
     width: 200px;
+}
+
+.button:hover{
+    margin-top: 19px;
+    height: 27px;
+    width: 67px;    
+}
+
+.button:active{
+    margin-top: 23px;
+    height: 20px;
+    width: 60px;
+    font-size: xx-small;
 }
