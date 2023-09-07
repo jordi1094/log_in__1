@@ -19,6 +19,7 @@ body{
     font-size: x-large;
     text-align: center;
     padding-top: 4px;
+    color: rgb(117, 85, 159);
 }
 
 .formulario{
@@ -29,44 +30,114 @@ body{
 .formulario__div{
     height: 110px;
 }
+.User{
+    margin-left: 6px;
+    position: absolute;
+    top: -13px;
+    z-index: 50;
+    color: rgb(117, 85, 159);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon_1{
+    position: absolute;
+    top: 210px;
+    left: 415px;
+    color: rgb(117, 85, 159);
+}
+.icon_2{
+    position: absolute;
+    top: 245px;
+    left: 415px;
+    color: rgb(117, 85, 159);
+}
+
+.Password{
+    margin-left: 6px;
+    position: absolute;
+    top: -13px;
+    z-index: 50;
+    color: rgb(117, 85, 159);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input__1{
+    position: absolute;
+    top: 3px;
+    display: block;
+    border: 0;
+    background-color: rgb(245, 238, 225);
+}
+.input__2{
+    position: absolute;
+    top: 3px;
+    display: block;
+    border: 0;
+    background-color: rgb(245, 238, 225);
+}
+
+.div_user{
+    position: absolute;
+    left: 25px;
+    height: 25px;
+    width: 220px;
+    margin: auto;
+    border: 1px solid rgb(243, 200, 119);
+    border-radius: 2%;
+    background-color:rgb(245, 238, 225) ;
+}
+.div_password{
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    height: 25px;
+    width: 220px;
+    margin: auto;
+    border: 1px solid rgb(243, 200, 119);
+    border-radius: 2%;
+    background-color:rgb(245, 238, 225) ;
+}
+.link_troll{
+    padding:20px;
+    font-size: 12px;
+}
+
+.remember_me{
+    position: absolute;
+    top:70px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 105px;
+    display: flex;
+    color: rgb(221, 182, 108);
+    
+}
+.user_remember{
+    position: absolute;
+    top: 70px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 90px;
+}
 
 .button{
-    margin-top: 15px;
+    margin-top: 65px;
     border: 1px solid rgb(243, 200, 119);
     background-color:rgb(245, 238, 225) ;
     width: 65px;
     height: 25px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.link_troll{
-    padding:20px;
-    font-size: 12px;
-}
-.input__1{
-    margin-top: 20px;
-    border: 1px solid rgb(243, 200, 119);
-    background-color:rgb(245, 238, 225) ;
-    width: 200px;
-}
-
-
-a{
-    font-size: 10px;
-}
-.user_remember{
-    margin-top: 10px;
+    color: rgb(117, 85, 159);
+    text-decoration-style: double;
 }
 
 .button:hover{
-    margin-top: 14px;
+    margin-top: 63px;
     height: 27px;
     width: 67px;    
 }
 
 .button:active{
-    margin-top: 17px;
+    margin-top: 67px;
     height: 20px;
     width: 60px;
     font-size: xx-small;
