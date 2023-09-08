@@ -39,15 +39,15 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .icon_1{
-    position: absolute;
-    top: 210px;
-    left: 415px;
+    position: relative;
+    top: 3px ;
+    left:95px;
     color: rgb(117, 85, 159);
 }
 .icon_2{
-    position: absolute;
-    top: 245px;
-    left: 415px;
+    position: relative;
+    top: 3px;
+    left: 95px;
     color: rgb(117, 85, 159);
 }
 
@@ -101,9 +101,10 @@ body{
 }
 
 .remember_me{
-    position: absolute;
-    top:70px;
-    font-size: 10px;
+    position: relative;
+    top:40px;
+    left: -65px;
+    font-size: 8px;
     margin-top: 10px;
     margin-left: 105px;
     display: flex;
@@ -111,34 +112,38 @@ body{
     
 }
 .user_remember{
-    position: absolute;
-    top: 70px;
+    position: relative;
+    top: 19px;
+    left: -65px;
     margin-top: 10px;
     display: flex;
     margin-left: 90px;
 }
 
 .button{
-    margin-top: 65px;
-    border: 1px solid rgb(243, 200, 119);
-    background-color:rgb(245, 238, 225) ;
-    width: 65px;
-    height: 25px;
+    position: relative;
+    background-color: rgb(180, 138, 234);
+    width: 75px;
+    height: 45px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(117, 85, 159);
-    text-decoration-style: double;
+    color: rgb(243, 200, 119);
+    font-size: medium;
+    border: 3px solid rgb(243, 200, 119);
+    border-radius: 8%;
 }
 
 .button:hover{
-    margin-top: 63px;
-    height: 27px;
-    width: 67px;    
+    position: relative;
+    top:-1px ;
+    height: 47px;
+    width: 77px;    
 }
 
 .button:active{
-    margin-top: 67px;
-    height: 20px;
-    width: 60px;
-    font-size: xx-small;
+    position: relative;
+    top: 2px;
+    height: 41px;
+    width: 71px;
+    font-size: small;
 }
