@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+}
+.titulo{
+    text-align: center;
+}
+.Precio{
+    position: absolute;
+    display: inline;
+    top: 355px;
+    width: 230px;
+    text-align: center;
+    border: opx solid red;
+}
+.planes{
+    display: flex;
+    justify-content: space-around;
+}
+.Plan_1{
+    background-color: white;
+    border: 1px solid rgb(110, 252, 219);
+    height: 280px;
+    width: 230px;
+}
+
+.Plan_2{
+    background-color: white;
+    border: 1px solid rgb(110, 252, 219);
+    height: 280px;
+    width: 230px;
+}
+
+.Plan_3{
+    background-color: white;
+    border: 1px solid rgb(110, 252, 219);
+    height: 280px;
+    width: 230px;
+}
+
+.head_plan{
+    text-align: center;
+}
+.descripción{
+    padding: 0px 5%;
+}
