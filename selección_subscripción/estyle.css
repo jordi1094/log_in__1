@@ -1,45 +1,66 @@
+*{
+    font-family: sans-serif;
+}
 body{
-    background-color: beige;
+    background-color: white;
 }
 .titulo{
-    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 700px;
+    text-align: center;    
 }
 .Precio{
     position: absolute;
     display: inline;
-    top: 355px;
+    top: 400px;
     width: 230px;
     text-align: center;
-    border: opx solid red;
+    font-size: x-large;
+    font-weight: 800;
+    
 }
 .planes{
     display: flex;
     justify-content: space-around;
 }
 .Plan_1{
-    background-color: white;
-    border: 1px solid rgb(110, 252, 219);
+    background-color: rgb(198, 247, 246);
+    border-radius: 15%;
+    border: 3px solid rgb(110, 252, 219);
     height: 280px;
     width: 230px;
 }
 
 .Plan_2{
-    background-color: white;
-    border: 1px solid rgb(110, 252, 219);
+    background-color: rgb(255, 250, 219);
+    border-radius: 15%;
+    border: 3px solid rgb(246, 235, 133);
     height: 280px;
     width: 230px;
 }
 
 .Plan_3{
-    background-color: white;
-    border: 1px solid rgb(110, 252, 219);
+    background-color: rgb(254, 222, 255);
+    border-radius: 15%;
+    border: 3px solid rgb(238, 137, 242);
     height: 280px;
     width: 230px;
 }
 
 .head_plan{
     text-align: center;
+    font-size: x-large;
+    font-weight: 700;
 }
 .descripción{
-    padding: 0px 5%;
+    position: relative;
+    top: -5%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
 }
