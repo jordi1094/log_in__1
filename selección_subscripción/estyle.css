@@ -2,57 +2,61 @@
     font-family: sans-serif;
 }
 body{
-    background-color: white;
+    background-image: url(https://img.freepik.com/free-vector/mostera-background_53876-91263.jpg?w=1480&t=st=1695761842~exp=1695762442~hmac=8b71311d4b9a613bf3cd63dfca5622f7e93928d39a4675f1d93a042a946f925e);
 }
 .titulo{
     display: block;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 65px;
+    margin-bottom: 15px;
+    margin-bottom: 105px;
     height: 100px;
     width: 700px;
-    text-align: center;    
+    text-align: center;   
+}
+h1{
+    color: rgb(0, 42, 19);
+    background-color: rgba(255, 255, 255, 0.331);
 }
 .Precio{
-    position: absolute;
-    display: inline;
-    top: 425px;
-    width: 230px;
+    position: sticky;
     text-align: center;
     font-size: x-large;
     font-weight: 800;
-    
+    margin: auto;
+    z-index: 3;
 }
 .planes{
     display: flex;
     justify-content: center;
+    
+    
 }
 .Plan_1{
-    background-color: rgb(198, 247, 246);
+    background-color: rgb(255, 243, 207);
     border-radius: 15% 15% 0% 0%;
-    border: 3px solid rgb(110, 252, 219);
-    height: 300px;
+    border: 3px solid rgb(250, 230, 167);
+    height: 320px;
     width: 230px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .Plan_2{
-    background-color: rgb(255, 250, 219);
+    background-color: rgb(250, 229, 255);
     border-radius: 15% 15% 0% 0%;
-    border: 3px solid rgb(246, 235, 133);
-    height: 300px;
+    border: 3px solid rgb(243, 196, 255);
+    height: 320px;
     width: 230px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .Plan_3{
-    background-color: rgb(254, 222, 255);
+    background-color: rgb(198, 247, 246);
     border-radius: 15% 15% 0% 0%;
-    border: 3px solid rgb(238, 137, 242);
-    height: 300px;
+    border: 3px solid rgb(110, 252, 219);
+    height: 320px;
     width: 230px;
     margin-left: 10px;
     margin-right: 10px;
@@ -60,6 +64,7 @@ body{
 
 .head_plan{
     position: relative;
+    top:-10%;
     text-align: center;
     font-size: x-large;
     font-weight: 700;
@@ -67,14 +72,15 @@ body{
 }
 .descripción{
     position: relative;
-    top: -40%;
+    top: -30%;
     text-align: center;
     font-size: 15px;
     line-height: 25px;
+    height: 25%;
 }
 .head_box__plan1{
     position: relative;
-    background-color: rgb(145, 244, 220);
+    background-color:rgb(250, 230, 167);
     border-radius: 50% 50% 0% 0%;
     top: -40%;
     left: -3px;
@@ -84,7 +90,7 @@ body{
 }
 .head_box__plan2{
     position: relative;
-    background-color: rgb(246, 235, 133);
+    background-color: rgb(243, 196, 255);
     border-radius: 50% 50% 0% 0%;
     top: -40%;
     left: -3px;
@@ -94,11 +100,63 @@ body{
 }
 .head_box__plan3{
     position: relative;
-    background-color: rgb(238, 137, 242);
+    background-color: rgb(110, 252, 219);
     border-radius: 50% 50% 0% 0%;
     top: -40%;
     left: -3px;
     height: 100px;
     width: 236px;
     z-index: 1;
+}
+
+.Precio_box__1{
+    position: relative;
+    background-color: rgb(250, 230, 167);
+    top: -17%;
+    left: -3px;
+    height: 65px;
+    width: 236px;
+    z-index: 1;
+}
+.Precio_box__2{
+    position: relative;
+    background-color: rgb(243, 196, 255);
+    top: -17%;
+    left: -3px;
+    height: 65px;
+    width: 236px;
+    z-index: 1;
+}.Precio_box__3{
+    position: relative;
+    background-color:rgb(110, 252, 219);
+    top: -17%;
+    left: -3px;
+    height: 65px;
+    width: 236px;
+    z-index: 1;
+}
+
+.Plan_1:hover{
+    transform: scale(110%);
+    transition-duration: 500ms, 500ms 
+}
+.Plan_1:not(:hover){
+    transform: scale(100%);
+    transition-duration: 500ms;
+}
+.Plan_2:hover{
+    transform: scale(110%);
+    transition-duration: 500ms, 500ms 
+}
+.Plan_2:not(:hover){
+    transform: scale(100%);
+    transition-duration: 500ms;
+}
+.Plan_3:hover{
+    transform: scale(110%);
+    transition-duration: 500ms, 500ms 
+}
+.Plan_3:not(:hover){
+    transform: scale(100%);
+    transition-duration: 500ms;
 }
